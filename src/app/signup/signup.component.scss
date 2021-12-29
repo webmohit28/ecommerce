@@ -1,0 +1,20 @@
+.form-wrapper {
+  max-width: 600px;
+  margin: auto;
+  background: #f6f6f6;
+  padding: 30px;
+  margin-top: 60px;
+  border-radius: 5px;
+}
+
+.form-table {
+  max-width: 750px;
+  margin: 30px auto;
+  li {
+    display: flex;
+    span {
+      padding: 5px 10px;
+      border: 1px solid #eee;
+    }
+  }
+}

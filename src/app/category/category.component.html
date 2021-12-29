@@ -1,0 +1,16 @@
+<div class="category-wrapper">
+  <ng-container *ngFor="let item of catList.splice(0, 16); let i = index">
+    <app-category-detail
+      [catItem]="item"
+      class="category-col"
+    ></app-category-detail>
+  </ng-container>
+</div>
+
+<!-- <div class="category-wrapper">
+  <ng-container *ngFor="let item of catList; let i = index">
+    <a [routerLink]="['/category', item.id]">{{ item.id }}{{ item.title }}</a>
+    <br />
+   <app-category-detail [catItem]="item"></app-category-detail> 
+  </ng-container>
+</div> -->

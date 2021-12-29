@@ -1,0 +1,14 @@
+<div class="product-wrapper">
+  <div
+    class="card"
+    style="width: 25%"
+    *ngFor="let item of productList.slice(0, 8); let i = index"
+  >
+    <img class="card-img-top" [src]="item.thumbnailUrl" alt="Card image" />
+    <div class="card-body">
+      <h4 class="card-title">{{ item.title }}</h4>
+      <!-- <p class="card-text">Some example text.</p> -->
+      <a (click)="showProduct(item.id)" class="btn btn-primary">See Product</a>
+    </div>
+  </div>
+</div>

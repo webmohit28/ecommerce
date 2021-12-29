@@ -1,0 +1,7 @@
+.category-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  .category-col {
+    width: 25%;
+  }
+}
